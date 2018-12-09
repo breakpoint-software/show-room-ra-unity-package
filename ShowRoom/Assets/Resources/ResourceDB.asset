@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95c9a8b9ac70f04a8745f58a0c03fa3, type: 3}
+  m_Name: ResourceDB
+  m_EditorClassIdentifier: 
+  items:
+  - name: MeshSmith
+    ext: 
+    path: 
+    type: 1
+    objectTypeName: 
+  - name: ToonMonsterII
+    ext: 
+    path: MeshSmith
+    type: 1
+    objectTypeName: 
+  - name: Toon Mouse Spear
+    ext: 
+    path: MeshSmith/ToonMonsterII
+    type: 1
+    objectTypeName: 
+  - name: Controller
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 1
+    objectTypeName: 
+  - name: Toon Mouse Spear
+    ext: controller
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Controller
+    type: 2
+    objectTypeName: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Demo
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 1
+    objectTypeName: 
+  - name: Demo
+    ext: unity
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Demo
+    type: 2
+    objectTypeName: UnityEditor.SceneAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - name: Mesh
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 1
+    objectTypeName: 
+  - name: Materials
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh
+    type: 1
+    objectTypeName: 
+  - name: kobold_elite
+    ext: mat
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh/Materials
+    type: 2
+    objectTypeName: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_med
+    ext: mat
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh/Materials
+    type: 2
+    objectTypeName: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Mesh
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Motion
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 1
+    objectTypeName: 
+  - name: kobold_elite_mask@death01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@detect01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@idle01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@knockback01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@knockback_death01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@loiter01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@provocation01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@run01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@skill03
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@skill_attack01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@skill_attack02
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@stun01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask@walk01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_mask_born01
+    ext: FBX
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Prefab
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 1
+    objectTypeName: 
+  - name: kobold_elite_mask
+    ext: prefab
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Prefab
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Texture
+    ext: 
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 1
+    objectTypeName: 
+  - name: kobold_elite
+    ext: tga
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear/Texture
+    type: 2
+    objectTypeName: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: kobold_elite_prefab
+    ext: prefab
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: readMe
+    ext: txt
+    path: MeshSmith/ToonMonsterII/Toon Mouse Spear
+    type: 2
+    objectTypeName: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: RainEntertainment
+    ext: 
+    path: 
+    type: 1
+    objectTypeName: 
+  - name: FantasyMonster
+    ext: 
+    path: RainEntertainment
+    type: 1
+    objectTypeName: 
+  - name: FireDemon
+    ext: 
+    path: RainEntertainment/FantasyMonster
+    type: 1
+    objectTypeName: 
+  - name: Controller
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 1
+    objectTypeName: 
+  - name: FireDemon
+    ext: controller
+    path: RainEntertainment/FantasyMonster/FireDemon/Controller
+    type: 2
+    objectTypeName: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Demo
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 1
+    objectTypeName: 
+  - name: Demo
+    ext: unity
+    path: RainEntertainment/FantasyMonster/FireDemon/Demo
+    type: 2
+    objectTypeName: UnityEditor.SceneAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - name: Mesh
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 1
+    objectTypeName: 
+  - name: Materials
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon/Mesh
+    type: 1
+    objectTypeName: 
+  - name: Monster_066
+    ext: mat
+    path: RainEntertainment/FantasyMonster/FireDemon/Mesh/Materials
+    type: 2
+    objectTypeName: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Monster_106
+    ext: mat
+    path: RainEntertainment/FantasyMonster/FireDemon/Mesh/Materials
+    type: 2
+    objectTypeName: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: FireDemon
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Mesh
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Motion
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 1
+    objectTypeName: 
+  - name: FireDemon@atk01
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: FireDemon@atk02
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: FireDemon@die
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: FireDemon@hit
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: FireDemon@idle01
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: FireDemon@run
+    ext: FBX
+    path: RainEntertainment/FantasyMonster/FireDemon/Motion
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Prefab
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 1
+    objectTypeName: 
+  - name: FireDemon
+    ext: prefab
+    path: RainEntertainment/FantasyMonster/FireDemon/Prefab
+    type: 2
+    objectTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Texture
+    ext: 
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 1
+    objectTypeName: 
+  - name: FireDemon
+    ext: png
+    path: RainEntertainment/FantasyMonster/FireDemon/Texture
+    type: 2
+    objectTypeName: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: Monster_106
+    ext: png
+    path: RainEntertainment/FantasyMonster/FireDemon/Texture
+    type: 2
+    objectTypeName: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - name: readMe
+    ext: txt
+    path: RainEntertainment/FantasyMonster/FireDemon
+    type: 2
+    objectTypeName: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_FileCount: 38
+  m_FolderCount: 20
+  UpdateAutomatically: 0
