@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 79
+  controlID: 66
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 80
+  controlID: 67
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 81
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,20 +328,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ResourceVisualizer
+    - Assets/Prefacts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ResourceVisualizer
+  - Assets/Prefacts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Leo\Apps\Thesis\ShowRoom
+  m_LastProjectPath: C:\Leo\Apps\show-room-unity-package\show-room-ra-unity-package\ShowRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 642c0000
-    m_LastClickedID: 11364
-    m_ExpandedIDs: 00000000002b000000ca9a3bffffff7f
+    m_SelectedIDs: e82c0000
+    m_LastClickedID: 11496
+    m_ExpandedIDs: 00000000002b0000362d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,10 +394,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 102f0000
-    m_LastClickedInstanceID: 12048
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000223700000e370000e2360000
+    m_SelectedInstanceIDs: 822f0000
+    m_LastClickedInstanceID: 12162
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000223700000e370000e2360000da2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -485,23 +485,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a65faff
-    m_LastClickedID: -367302
-    m_ExpandedIDs: f66cfdfffc6cfdff126dfdff186dfdff1e6dfdff246dfdff2a6dfdfff0fbffff000000001a2f00002c2f0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: e66efffff0fbffff00000000262f0000302f0000522f00008a2f00009e390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Content
-      m_OriginalName: Content
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -168674
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -537,14 +537,14 @@ MonoBehaviour:
     height: 650
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 15690.147684641144
+  lastFramingTime: 329.38518511664444
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1113.4258, y: 496.92587, z: -9.427415}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 1113.4258, y: 496.92587, z: -9.427415}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -574,11 +574,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.013187352, y: -0.020400744, z: -0.0002690835, w: -0.9997049}
     speed: 2
-    m_Value: {x: 0.013187352, y: -0.020400744, z: -0.0002690835, w: -0.9997049}
+    m_Value: {x: 0.013187352, y: -0.020400746, z: -0.0002690835, w: -0.9997049}
   m_Size:
-    m_Target: 1018.12775
+    m_Target: 22
     speed: 2
-    m_Value: 1018.12775
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -610,8 +610,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -31713
-    y: -31951
+    x: 287
+    y: 92
     width: 1266
     height: 650
   m_PersistentViewDataDictionary: {fileID: 0}
