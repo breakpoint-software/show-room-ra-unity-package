@@ -31,6 +31,6 @@ public class CharacterButton : MonoBehaviour
 
     public void HandleClick()
     {
-        scrollList.TryTransferItemToOtherShop(item);
+        scrollList.AddCharacterToScene(item);
     }
 }
